@@ -425,59 +425,59 @@ function search(y) {
 }
 search(5);
 
-// //program 19
-// //Write a js program to sort array elements in ascending or descending order.
+//program 19
+//Write a js program to sort array elements in ascending or descending order.
 
-// //Ascending Order
-// function ascend() {
-//     var sorarray = [2, 1,37,212,0,54,65,34,432];
-//   var ascending = [];
-//  var z=sorarray.length
-//   for (let y = 0; y < z; y++) {
-//       var min = sorarray[0];
-//     for (let x = 1; x < sorarray.length; x++) {
-//       if (sorarray[x] < min) {
-//         min = sorarray[x];
-//     }
-//     if (incre==0) {
-// }
-// for (let a = 0; a < sorarray.length; a++) {
-//     if (min == sorarray[a]) {
+//Ascending Order
+function ascend() {
+    var sorarray = [2, 1,37,212,0,54,65,34,432];
+  var ascending = [];
+ var z=sorarray.length
+  for (let y = 0; y < z; y++) {
+      var min = sorarray[0];
+    for (let x = 1; x < sorarray.length; x++) {
+      if (sorarray[x] < min) {
+        min = sorarray[x];
+    }
+    if (incre==0) {
+}
+for (let a = 0; a < sorarray.length; a++) {
+    if (min == sorarray[a]) {
 
-//         console.log("Number is not found in Array");
-//         sorarray.splice(a, 1);
-//     }
+        console.log("Number is not found in Array");
+        sorarray.splice(a, 1);
+    }
 
-// }
-// search(5)
-// ascending.push(min);
-// }
-// console.log(ascending);
-// }
+}
+search(5)
+ascending.push(min);
+}
+console.log(ascending);
+}
 
-// //Decending Order
-// function decend() {
-//     var sorarray = [2,0, 1,37,212,54,65,34,432];
-//     var decending = [];
-//    var z=sorarray.length
-//     for (let y = 0; y < z; y++) {
-//         var max = sorarray[0];
-//       for (let x = 1; x < sorarray.length; x++) {
-//         if (sorarray[x] > max) {
-//           max = sorarray[x];
-//       }
-//   }
-//   for (let a = 0; a < sorarray.length; a++) {
-//       if (max == sorarray[a]) {
+//Decending Order
+function decend() {
+    var sorarray = [2,0, 1,37,212,54,65,34,432];
+    var decending = [];
+   var z=sorarray.length
+    for (let y = 0; y < z; y++) {
+        var max = sorarray[0];
+      for (let x = 1; x < sorarray.length; x++) {
+        if (sorarray[x] > max) {
+          max = sorarray[x];
+      }
+  }
+  for (let a = 0; a < sorarray.length; a++) {
+      if (max == sorarray[a]) {
 
-//           sorarray.splice(a, 1);
-//       }
-//   }
-//   decending.push(max);
-//   }
-//   console.log(decending);
-//   }
+          sorarray.splice(a, 1);
+      }
+  }
+  decending.push(max);
+  }
+  console.log(decending);
+  }
 
 
-// ascend();
-// decend() 
+ascend();
+decend() 
